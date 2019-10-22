@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer" />
+    <title>随机音乐播放器-熊猫</title>
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<script type="text/javascript">
+    iNoBounce.enable();
+  </script>
+
+<style type="text/css">
+    .ignitionIcon {
+      /*-webkit-animation: breathing 4s ease-out infinite normal;*/
+      /*animation: breathing 4s ease-out infinite normal;*/
+    }
+
+    .ignitionText {
+      margin-top: 10px;
+      animation: move 2s linear infinite;
+      background-image: linear-gradient(to right, #fe8a71, #f6cd61, #3da4ab, #0e9aa7, #fe8a71);
+      background-size: 200% auto;
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  .yongshu {
+      margin-top: 0px;
+      animation: move 2s linear infinite;
+      background-image: linear-gradient(to right, #fe8a71, #f6cd61, #3da4ab, #0e9aa7, #fe8a71);
+      background-size: 200% auto;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  .yongshuqixia {
+      margin-top: 0px;
+      animation: move 2s linear infinite;
+      background-image: linear-gradient(to right, #fe8a71, #f6cd61, #3da4ab, #0e9aa7, #fe8a71);
+      background-size: 200% auto;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    @keyframes move { to { background-position: 200% center; } }
+
+    @-webkit-keyframes breathing {
+      0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+      }
+
+      25% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+
+      60% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+      }
+
+      100% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+      }
+    }
+
+    @keyframes breathing {
+      0% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+      }
+
+      25% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+      }
+
+      60% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+      }
+
+      100% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+      }
+    }
+
+  </style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+<title>hello world</title>    
+ 
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+    <div id="dowebok">
+        <div id="bg-artwork"></div>
+        <div id="bg-layer"></div>
+        <div id="player">
+            <div id="player-track">
+                <div id="album-name"></div>
+                <div id="track-name"></div>
+                <div id="track-time">
+                    <div id="current-time"></div>
+                    <div id="track-length"></div>
+                </div>
+                <div id="s-area">
+                    <div id="ins-time"></div>
+                    <div id="s-hover"></div>
+                    <div id="seek-bar"></div>
+                </div>
+            </div>
+            <div id="player-content">
+                <div id="album-art">
+                    <img src="images/1.jpg" class="active" id="album-pic">
+                    <div id="buffer-box">加载中...</div>
+                </div>
+                <div id="player-controls">
+                    <div class="control">
+                        <div class="button" id="play-previous">
+                            <i class="fas fa-backward"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-pause-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-next">
+                            <i class="fas fa-forward"></i>
+                        </div>
+                    </div>
+                </div>
+<div class="page-content">
+<div class="block">
+<center>
+<a href="index.html">
+<img src="https://mmbiz.qpic.cn/mmbiz_gif/GCSG9VLghhoT3YswYqRCFBfwric3e7CSSTU3vviaRYvr88aYEuPfmE72iaOEamTibQBo5hqpUmU9b8AhrKwZE6m2Wg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1" width="100%px" class="ignitionIcon"></a>
+<h1 class="ignitionText">随机播放热门音乐</h1>
+</center>
+</div>
+<div><center><h1 class="yongshu">随机自动播放网易-抖音及热门音乐</h1><center>
+<center><h1 class="yongshu">亲测外放要比耳机好听很多倍 你们也可以试试</h1><center>
+<center><h1 class="yongshuqixia">唯一微博账号搜索：熊猫零零壹</h1><center>
+<center><h1 class="yongshuqixia">熊猫专注互联网、建站、网络推广、PS设计、科技资讯</h1><center>
+ <marquee class="yongshuqixia">免费分享-喜欢音乐喜欢你-2019.9.8更新</marquee>
+
+<span id="momk" style="color: #ff0000;"></span>
+    
+<script type="text/javascript">
+     function NewDate(str) {
+      str = str.split('-');
+     var date = new Date();
+      date.setUTCFullYear(str[0], str[1] - 1, str[2]);
+      date.setUTCHours(0, 0, 0, 0);
+     return date;
+     }
+     function momxc() {
+     var birthDay =NewDate("2019-09-07");
+     var today=new Date();
+     var timeold=today.getTime()-birthDay.getTime();
+     var sectimeold=timeold/1000
+     var secondsold=Math.floor(sectimeold);
+     var msPerDay=24*60*60*1000; var e_daysold=timeold/msPerDay;
+     var daysold=Math.floor(e_daysold);
+     var e_hrsold=(daysold-e_daysold)*-24;
+     var hrsold=Math.floor(e_hrsold);
+     var e_minsold=(hrsold-e_hrsold)*-60;
+     var minsold=Math.floor((hrsold-e_hrsold)*-60); var seconds=Math.floor((minsold-e_minsold)*-60).toString();
+       document.getElementById("momk").innerHTML = "本站已安全运行："+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+       setTimeout(momxc, 1000);
+       }momxc();
+      </script>  
+<style>
+       #momk{animation:change 2s infinite;font-weight:800; }
+        @keyframes change{0%{color:#fe8a71;}25%{color:#f6cd61;}50%{color:#3da4ab;}75%{color:#0e9aa7;}100% {color:#fe8a71;}}
+      </style>
+
+          </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1278076134'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1278076134%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+    
+</body>
+
+</html>
+
